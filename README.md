@@ -3,6 +3,8 @@
 ## Introduction
 Welcome to our ad-free Online Dictionary, a user-friendly platform designed to enhance your language learning experience. With a focus on simplicity, our dictionary offers concise definitions, natural audio pronunciations, and contextual examples, aimed at helping users understand and retain vocabulary effectively.
 
+![Architecture Diagram](/archtiecture.jpg)
+
 ## Features
 - **Extensive Word Database:** Access over 125,000 words, each with detailed meanings and examples.
 - **Origin-based Differentiation:** Understand how meanings vary with the word's origin.
