@@ -1,0 +1,79 @@
+.Infocard {
+    /* margin-top: 20rem; */
+    padding: 10px;
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
+    border-radius: 14px;
+    background-color: #f6f6f6;
+}
+.wodd{
+  color: #4a4a4ac6;
+  cursor: pointer;
+  font-size: 3.5rem;
+  text-align: center;
+
+}
+
+.woddbutton{
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+  border-radius: 5px;
+  background-color: #4695ea00;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.woddbutton:hover{
+  color: #dad5d5;
+  transform: scale(1.07);
+  transition: transform 0.3s ease;
+}
+
+.woddbutton:active{
+  background-color: rgba(107, 167, 231, 0.186);
+  color: #dad5d5;
+  border-radius: 50px;
+}
+
+.infocardborder{
+  margin: 15px;
+  margin-top: 19px;
+  padding: 1px 50px 132px 50px;
+  background-color: #4695ea14;
+  box-shadow: 0 0 8px #d3d3d3;
+  border-radius: 0px;
+  height: 325px;
+}
+
+.woddheader{
+  margin-left: 30px;
+  margin-top: 28px;
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color:#2d2b24;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.meaning{
+  margin-top: 2.5rem;
+  color: #545454;
+  font-size:1.1rem;
+  text-align: center;
+  padding: 0 2rem 0 2rem;
+  justify-self: center;
+}
+
+.pos{
+  margin-top: 0.8rem;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #545454;
+  font-style: italic;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  justify-self: center;
+}

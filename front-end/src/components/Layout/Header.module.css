@@ -1,0 +1,134 @@
+.header {
+  background-color: #0c2754;
+  box-shadow: 0 2px 4px rgb(52, 49, 49);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+  z-index: 1;
+}
+
+.title h1 {
+  display: flex;
+  font-size: 3.6rem;
+  color: #eeeeee;
+  letter-spacing: .3px;
+  font-family:Calibri;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+input{
+  flex-grow:  1;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  width: 550px;
+}
+
+button {
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  cursor: pointer;
+  background-color: #474741;
+  color: #fff;
+}
+
+.searchResultsContainer {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border-radius: 0.5rem;
+  z-index: 10;
+  width: 550px;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.searchResults {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.searchResults li {
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.searchResults li:hover,
+.searchResults li.active {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+.logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.buttonsContainer {
+  position: absolute;
+  top: 177px;
+  right: 0;
+  margin-right: 15px;
+}
+
+.button1{
+  border-bottom-left-radius: 1em;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+  background-color: #474741;
+}
+
+.button2{
+  border-bottom-left-radius: 0rem;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+  background-color: #474741;
+}
+
+.button3{
+  border-bottom-left-radius: 0rem;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #474741;
+}
+
+.button1:active,
+.button2:active,
+.button3:active .button:active {
+  background-color: #353530;
+  color: #dad5d5;
+}
+
+.button1:hover,
+.button2:hover,
+.button3:hover {
+  background-color: #42423c;
+  color: #dad5d5;
+}
+
+
+header .title h1:hover {
+  cursor: pointer;
+}

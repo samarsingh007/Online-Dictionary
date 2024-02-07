@@ -1,0 +1,84 @@
+:root {
+  --text-color: #444;
+}
+.meal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  color: var(--text-color);
+}
+
+.meal h1 {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.85rem;
+  color: var(--text-color);
+  font-family: "Calibri";
+}
+
+.meal h1 .icon {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.meal ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: my-counter;
+}
+
+.meal ul li {
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.4;
+  counter-increment: my-counter;
+}
+
+.meal ul li:before {
+  content: counter(my-counter);
+  color: #4a4a4a;
+  font-size: 14px;
+  position: absolute;
+  left: 0;
+  top: 1.5px;
+}
+
+.speakerButton {
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  height: 31px;
+  padding: 5px;
+  width: 31px;
+  margin-left: 1px;
+  border-radius: 80%;
+}
+
+.speakerButton img {
+  height: 100%;
+  width: 100%;
+}
+
+.speakerButton:active {
+  background-color: #a19e95;
+}
+
+.source{
+  font-size: smaller;
+  font-style: italic;
+  color: grey;
+}
+
+.rightAlign {
+  text-align: right;
+}

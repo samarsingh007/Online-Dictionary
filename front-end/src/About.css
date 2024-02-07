@@ -1,0 +1,23 @@
+.about {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    
+    
+    
+  }
+  
+.about h1 {
+    font-size: 3rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #888;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  

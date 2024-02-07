@@ -1,0 +1,11 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #statsBar
+  {
+    border: 4px solid black;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+
+  }

@@ -1,0 +1,27 @@
+.title{
+    background-color: #0c2754;
+    font-size: 2.5rem;
+    color: rgb(237, 237, 237);
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+.headerbuttons{
+    background-color: #0c2754;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button1{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.button2{
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+.button1:hover, .button2:hover{
+    background-color: #3c3c36;
+}
